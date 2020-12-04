@@ -1,0 +1,259 @@
+body{
+font-family: 'Hind', sans-serif;
+margin: 0;
+text-align: center;
+color: black;
+font-size: 17px;
+}
+h1,h2,h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Hind-Bold', sans-serif;
+}
+h2{
+    font-size: 2.2rem;
+    line-height: 1.4;   
+}
+.container-fluid{
+    padding: 2% 12%;
+}
+
+
+
+
+
+
+
+
+/** navbar Starts Here **/
+.navbar{
+    background-color: #153E90;
+    padding: 13px 0;
+   
+}
+.navbar-brand{
+    color:#fff !important;
+    font-family: "Ubuntu";
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.navbar-nav{
+     margin-right: 20%;
+     
+}
+.nav-item{
+     padding-left:4%;
+     padding-right: 4%;
+}
+.nav-link{
+   color: #fff !important; 
+    font-size: 1rem;
+    font-weight: bold;  
+    border-bottom: 1.5px solid #54e346;
+}
+
+
+
+
+
+/** title section Starts Here **/
+#title{
+    background-color: #153E90;
+    padding-top:100px;
+    text-align: left;
+}
+#title h1{
+text-align: left;
+color: #fffaa4;
+padding-top:20px;
+font-size: 3.1rem;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.btn-custom{
+    margin: 3% 1% 2%;
+    color: #ffffff;
+}
+
+#title img{
+    margin-top:1px;
+    width: 100%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.liner-1st{
+    margin: 0;
+    border-style: none;
+    height: 2px;
+    width: 100%;
+}
+
+
+
+
+
+
+/** Feature section Starts Here **/
+#features{
+    position: relative; 
+    background-color: #fff;
+}
+#features .container-fluid{
+padding: 7% 20% 5%;
+}
+
+#features h3{
+    border-bottom:2px solid #fffaa4; 
+    font-size: 1.5rem;
+}
+
+.custom-featurecon {
+    color: #111d5e;
+    margin-bottom: 20px;
+}
+.custom-featurecon:hover{
+    color: #153E90 !important;
+}
+
+
+
+
+/** Testimonial section Starts Here **/
+#testimonials{
+    background-color: #0e49b5;
+    color: #fff;
+}
+
+.carousel-inner{
+     padding: 1% 10%;
+}
+#testimonials h3{
+    font-size: 2.2rem;
+    line-height: 1.4;   
+}
+
+#testimonials img{
+    width: 18%;
+    border-radius: 100%;
+    margin-left: 15%;
+    margin-top:  10px;
+}
+#testimonials em{
+    margin-top: 80px;
+}
+
+
+
+
+/** Affiliation section Starts Here **/
+#affiliation{
+    display: block;
+    background-color:#0e49b5;
+}
+
+#affiliation img{
+    width:17%;
+    margin-right: 4%;
+}
+
+
+
+
+
+/** pricing section Starts Here **/
+
+
+
+
+
+
+/** cta section Starts Here **/
+#cta{
+    padding: 7% 15%;
+    background-color:#153E90;
+}
+#cta h3{
+    color: #fff;
+    font-size: 2.6rem;
+}
+
+
+
+
+
+/** footer section section Starts Here **/
+#footer{
+padding: 7% 15% 3%;
+}
+#footer i{
+    margin: 2% 1% 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:986px){
+
+    .img-div-main{
+    margin-bottom: 10px;  
+    }
+    #title{
+        text-align: center;
+    }
+    #title img{
+    width: 100%;
+    transform: rotate(0);
+    position: static;
+    padding-bottom: 0;
+}
+    
+ #title h1{
+text-align: center;
+font-size: 2.1rem;
+}   
+    
+    .carousel-inner{
+     padding: 2%;
+    text-align: center;
+}
+    #testimonials h3{
+    color: #fffaa4; 
+    font-size: 1.8rem;   
+}
+    #testimonials img{
+    text-align: center;
+    width: 25%;
+    margin-right: 13%;
+}
+#testimonials em{
+    display: block;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+    #pricing h2{
+           font-size: 1.8rem;
+           padding-top: 20px;
+    }
+     #pricing h3{
+           font-size: 1.5rem;
+    }
+    
+#cta h3{
+    color: #fffaa4; 
+    font-size: 1.8rem;
+}
+}
+
+
+
